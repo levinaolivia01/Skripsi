@@ -1,0 +1,205 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(94, 93, 93); 
+}
+
+.container-navbar {
+  padding : 20px;
+  display: flex;
+  align-items: flex-start; 
+}
+
+.ul-navbar-left {
+  background-color: rgb(189, 184, 184);
+  display: inline-block;
+  width : 250px;
+  height : 350px;
+  justify-content: left;
+  align-content: center;
+  border-radius: 20px; 
+  overflow: hidden;
+  text-align: center;
+  margin-right: 10px;
+  margin-top: 150px;
+  margin-left: 200px;
+}
+
+.li-navbar {
+  list-style-type: none;
+  text-align: left;
+  padding : 5px;
+  font-size: 40;
+  margin-left: 5px;
+}
+
+.btn-navbar {
+  padding: 2px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 30;
+  background-color: rgb(189, 184, 184);
+  margin-left: 10px;
+}
+
+.btn-navbar:hover {
+  background-color: rgb(235, 169, 169);
+  font-size: 35;
+}
+
+.li-navbar-dashboard {
+  font-size: 36;
+  padding-bottom: 10px;
+  font-weight: bold;
+  border-bottom: 3px solid rgb(235, 169, 169);
+  padding-bottom: 3px;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.li-navbar i {
+  margin-right: 20px; 
+  vertical-align: middle;
+}
+
+.li-navbar a {
+  margin-right: 13px; 
+  margin-left: -3px;
+  font-size: 40px;
+  vertical-align: middle;
+}
+
+.title {
+  margin-top: 50px;
+  margin-left: 330px;
+  font-size: 40;
+  font-weight: bold;
+  text-align: left;
+}
+
+.title-second-row {
+  margin-left: 570px;
+  font-size: 40;
+  font-weight: bold;
+  align-content: center;
+  vertical-align: center;
+}
+
+.ul-navbar-right {
+  background-color: white;
+  display: flexbox;
+  width : 1200px;
+  height : 600px;
+  justify-content: center;
+  border-radius: 20px; 
+  overflow: hidden;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 50px;
+}
+
+.text1-home {
+  display: inline-flexbox;
+  font-size: 45;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.text2-home {
+  display: inline-flexbox;
+  list-style-type: none;
+  font-size: 33;
+  text-align: justify;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding: 5px;
+}
+
+.text1-upload-file {
+  display: inline-flexbox;
+  list-style-type: none;
+  font-size: 40;
+  text-align: center;
+  align-content: center;
+  margin-top: 150px;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding: 5px;
+}
+
+.text2-upload-file {
+  display: inline-flexbox;
+  list-style-type: none;
+  font-size: 20;
+  text-align: center;
+  align-content: center;
+  margin-top: 2px;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding: 5px;
+}
+
+.li-navbar b {
+  margin-top: 10px;
+  font-size: 40;
+  margin-left: 570px;
+}
+
+.text3-upload-file {
+  background-color: rgb(224, 157, 168);
+  width: 200px;
+  list-style-type: none;
+  font-size: 20;
+  text-align: center;
+  align-content: center;
+  margin-top: 2px;
+  margin-left: 490px;
+  margin-right: 30px;
+  padding: 10px;
+  border-radius: 20px; 
+  overflow: hidden;
+}
+
+input[type="file"] {
+  display: inline-flexbox;
+  padding: 20px; 
+  font-size: 25px; 
+  border-radius: 50px; 
+  cursor: pointer; 
+  width: 400px; 
+  margin-left: 10px;
+  margin-top: 30px;
+  background-color: rgb(224, 157, 168);;
+}
+
+.text1-about {
+  list-style-type: none;
+  font-size: 33;
+  text-align: justify;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 60px;
+  padding: 5px;
+}
+
+.text2-about {
+  list-style-type: none;
+  font-size: 33;
+  text-align: justify;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 20px;
+  padding: 5px;
+}
+
+.uploadButton {
+  padding: 5px;
+  margin-top: 15px;
+  font-size: 25px;
+}
